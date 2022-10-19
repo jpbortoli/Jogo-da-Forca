@@ -12,3 +12,6 @@ palavraChave = input ("Desafiante informe a palavra chave aqui: ")
 dicas = pedirDicas ("Desafiante informe três dicas:")
 
 limparTela()
+
+numLetras = '*' * len(palavraChave)
+print(f'A palavra é {numLetras}')
